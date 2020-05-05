@@ -1,0 +1,7 @@
+GET http://localhost:8080/employees
+###
+GET http://localhost:8080/employees?pageNo=2
+###
+GET http://localhost:8080/employees?pageNo=2&pageSize=5
+###
+GET http://localhost:8080/employees?pageNo=1&pageSize=5&sortBy=lastName
